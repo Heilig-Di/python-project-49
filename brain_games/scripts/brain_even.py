@@ -40,3 +40,6 @@ def main():
 			correct = 0
 
 	print(f'Congratulations, {name}!')
+
+	if __name__ == '__main':
+		main()
