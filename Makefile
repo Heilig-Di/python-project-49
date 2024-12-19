@@ -17,7 +17,7 @@ brain-even:
 	poetry run brain-even
 
 lint:
-        poetry run flake8 brain_games
+	poetry run ruff check brain_games
 
 .PHONY: build publish package-install install brain-games brain-even lint
 
