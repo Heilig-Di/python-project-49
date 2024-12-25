@@ -1,23 +1,23 @@
 build:
-	poetry build
+	uv build
 
 publish:
-	poetry publish --dry-run
+	uv publish --dry-run
 
 package-install:
-	python3 -m pip install --user dist/*.whl
+	uv tool install dist/*.whl
 
 install:
-	poetry install
+	uv add
 
 brain-games:
-	poetry run brain-games
+	uv run brain-games
 
 brain-even:
-	poetry run brain-even
+	uv run brain-even
 
 lint:
-	poetry run ruff check brain_games
+	uv run ruff check brain_games
 
 .PHONY: build publish package-install install brain-games brain-even lint
 
