@@ -1,39 +1,25 @@
 #!/usr/bin/env python3
 import random
 
-from brain_games.cli import welcome_user
-from brain_games.scripts.brain_games import greet
+from brain_games.games.game_logic import play
 
 
 def main():
-	greet()
-	name = welcome_user()
-	print('Answer "yes" if the number is even, otherwise answer "no".')
-	correct = 0
+	message = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-	while correct < 3:
+	def check_even(number):
+		return number % 2 == 0
+
+
+
+	def run_game():
 		number = random.randint(1, 100)
+		question = number
+		correct_answer = 'yes' if check_even(number) else 'no'
+		return question, correct_answer
 
-		def check_even(number):
-			if number % 2 == 0:
-				return 'even'
 
-			else:
-				return 'not even'
+	play(run_game, message)
 
-		result = check_even(number)
-		answer = input(f'Question: {number}\nYour answer: ').lower()
-
-		if ((answer == 'yes' and result == 'even') or
-				(answer == 'no' and result == 'not even')):
-			print('Correct!')
-			correct += 1
-
-		else:
-			print(f"'{answer}' is wrong answer :(\nLet's try again, {name}!")
-			correct = 0
-
-	print(f'Congratulations, {name}!')
-
-	if __name__ == '__main':
-		main()
+if __name__ == '__main__':
+	main()
