@@ -1,10 +1,10 @@
 from brain_games.cli import welcome_user
 from brain_games.scripts.brain_games import greet
 
-
-
 greet()
 name = welcome_user()
+
+
 def play(run_game, message):
 	correct = 0
 	print(message)
@@ -23,4 +23,3 @@ def play(run_game, message):
 			correct = 0
 
 	print(f'Congratulations, {name}!')
-
