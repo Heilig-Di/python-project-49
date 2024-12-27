@@ -1,19 +1,12 @@
 #!/usr/bin/env python3
-
 import random
 
-import prompt
-
-
-def welcome_user():
-	name = prompt.string('May I have your name? ')
-	print('Hello, ', name, '!')
-	return name
+from brain_games.cli import welcome_user
+from brain_games.scripts.brain_games import greet
 
 
 def main():
-	print('Welcome to the Brain Games!')
-
+	greet()
 	name = welcome_user()
 	print('Answer "yes" if the number is even, otherwise answer "no".')
 	correct = 0
