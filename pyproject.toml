@@ -17,6 +17,7 @@ prompt = "^0.4.1"
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
 
 [project.dev.dependencies]
 ruff = "^0.8.4"
