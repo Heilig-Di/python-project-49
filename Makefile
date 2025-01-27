@@ -19,8 +19,11 @@ brain-even:
 brain-calc:
 	uv run brain-calc
 
+brain-gcd:
+	uv run brain-gcd
+
 lint:
 	uv run ruff check brain_games
 
-.PHONY: build publish package-install install brain-games brain-even lint brain-calc
+.PHONY: build publish package-install install brain-games brain-even lint brain-calc brain-gcd
 
