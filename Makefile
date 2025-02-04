@@ -24,8 +24,11 @@ brain-gcd:
 
 brain-prime:
 	uv run brain-prime
+
+brain-progression:
+	uv run brain-progression
+
 lint:
 	uv run ruff check brain_games
 
-.PHONY: build publish package-install install brain-games brain-even lint brain-calc brain-gcd brain-prime
-
+.PHONY: build publish package-install install brain-games brain-even lint brain-calc brain-gcd brain-prime brain-progression
