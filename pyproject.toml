@@ -1,7 +1,8 @@
 [project]
 name = "python-project-49"
 version = "0.1.0"
-description = "Add your description here"
+description = "It’s brain games, for each you have to give 3 correct answers"
+authors = "Захарчук Диана"
 readme = "README.md"
 packages = [
   { include = "brain_games" },
