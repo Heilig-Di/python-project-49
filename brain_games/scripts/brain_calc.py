@@ -18,7 +18,7 @@ def main():
 
 	def run_game():
 		question, result = calculator()
-		correct_answer = result
+		correct_answer = str(result)
 		return question, correct_answer
 
 	play(run_game, message)

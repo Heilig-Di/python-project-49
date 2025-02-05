@@ -18,7 +18,7 @@ def main():
 
 	def run_game():
 		num = random.randint(1, 100)
-		question = num
+		question = str(num)
 		correct_answer = 'yes' if check_prime(num) else 'no'
 
 		return question, correct_answer 

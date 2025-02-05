@@ -12,7 +12,7 @@ def main():
 
 	def run_game():
 		number = random.randint(1, 100)
-		question = number
+		question = str(number)
 		correct_answer = 'yes' if check_even(number) else 'no'
 		return question, correct_answer
 
