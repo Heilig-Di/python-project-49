@@ -12,9 +12,16 @@ def main():
 		number_two = random.randint(1, 100)
 		operators = ['+', '-', '*']
 		operator = random.choice(operators)
+
+		if operator == '+':
+			result = number_one + number_two
+		elif operator == '-':
+			result = number_one - number_two
+		elif operator == '*':
+			result = number_one * number_two
+
 		question = (f'{number_one} {operator} {number_two}')
-		result = str(eval(f'{number_one} {operator} {number_two}'))
-		return question, result
+		return question, str(result)
 
 	def run_game():
 		question, result = calculator()
