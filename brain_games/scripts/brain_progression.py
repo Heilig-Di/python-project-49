@@ -24,7 +24,7 @@ def main():
 	def run_game():
 		progression = generator_progression()
 		progression, hidden_number = hide_number(progression)
-		question = (' '.join(progression))
+		question = ' '.join(map(str, progression))
 		correct_answer = str(hidden_number)
 
 		return question, correct_answer
