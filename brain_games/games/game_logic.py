@@ -12,7 +12,8 @@ def play(run_game, message):
 	while correct < 3:
 
 		question, correct_answer = run_game()
-		answer = input(f'Question: {question}\nYour answer: ').lower()
+		print(f'Question: {question}')
+		answer = input('Your answer: ').lower()
 
 		if answer == correct_answer:
 			print('Correct!')
@@ -20,6 +21,7 @@ def play(run_game, message):
 
 		else:
 			print(f"'{answer}' is wrong answer :(\nLet's try again, {name}!")
-			correct = 0
+			return False
 
 	print(f'Congratulations, {name}!')
+	return True
