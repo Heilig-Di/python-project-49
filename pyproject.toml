@@ -1,5 +1,5 @@
 [project]
-name = "python-project-49"
+name = "hexlet-code"
 version = "0.1.0"
 description = "It’s brain games, for each you have to give 3 correct answers"
 authors = [
