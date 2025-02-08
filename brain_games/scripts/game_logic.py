@@ -1,15 +1,23 @@
-from brain_games.cli import welcome_user
+import prompt
+
 from brain_games.scripts.brain_games import greet
 
 greet()
+
+
+def welcome_user():
+	name = prompt.string('May I have your name? ')
+	print(f'Hello, {name}!')
+	return name
+
+
 name = welcome_user()
 
 
 def play(run_game, message):
-	correct = 0
 	print(message)
 
-	while correct < 3:
+	for _ in range(3):
 
 		question, correct_answer = run_game()
 		print(f'Question: {question}')
@@ -17,7 +25,6 @@ def play(run_game, message):
 
 		if answer == correct_answer:
 			print('Correct!')
-			correct += 1
 
 		else:
 			print(f"'{answer}' is wrong answer :(\nLet's try again, {name}!")

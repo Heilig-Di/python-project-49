@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import random
 
-from brain_games.games.game_logic import play
+from brain_games.scripts.game_logic import play
 
 
 def main():
