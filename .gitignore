@@ -4,3 +4,6 @@ dist
 .flake8
 .python-version
 demo.cast
+__pycache__*
+dist
+.python-version
