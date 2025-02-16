@@ -16,15 +16,15 @@ You can choose one of the three games to play:
 
 There are also asciinema to be understood.
 #### Brain even
-https://asciinema.org/connect/7fde9fe4-c559-4bb7-9d0c-7fb55a1282b7?t=0:11-0:29
+https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=0:11
 #### Brain calc
-https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=1:00-1:23
+https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=1:00
 #### Brain gcd
-https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=1:30-2:07
+https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=1:30
 #### Brain prime
-https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=2:19-2:53
+https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=2:19
 #### Brain progression
-https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=2:56-03:42
+https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=2:56
 [![asciicast](https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan.svg)](https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan)
 
 ## Use
