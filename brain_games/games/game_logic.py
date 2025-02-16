@@ -1,9 +1,5 @@
 import prompt
 
-from brain_games.scripts.brain_games import greet
-
-greet()
-
 
 def welcome_user():
 	name = prompt.string('May I have your name? ')
