@@ -4,8 +4,8 @@ from brain_games.games.prime import MESSAGE, generate_question
 
 
 def main():
-        play(generate_question, MESSAGE)
+	play(generate_question, MESSAGE)
 
 
 if __name__ == '__main__':
-        main()
+	main()
