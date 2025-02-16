@@ -14,8 +14,17 @@ You can choose one of the three games to play:
 - Prime/not prime (brain-prime)
 - Find hidden number (brain-progression)
 
-There are also asciinema to be understood:
-https://asciinema.org/connect/7fde9fe4-c559-4bb7-9d0c-7fb55a1282b7
+There are also asciinema to be understood.
+#### Brain even
+https://asciinema.org/connect/7fde9fe4-c559-4bb7-9d0c-7fb55a1282b7?t=0:11-0:29
+#### Brain calc
+https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=1:00-1:23
+#### Brain gcd
+https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=1:30-2:07
+#### Brain prime
+https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=2:19-2:53
+#### Brain progression
+https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=2:56-03:42
 [![asciicast](https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan.svg)](https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan)
 
 ## Use
@@ -34,6 +43,11 @@ To remove, run:
 ```
 rm -rf python-project-49
 ```
+To reinstall the package first remove the packageЖ
+```
+rm -rf python-project-49
+```
+Then repeat the steps for installation
 
 ## Technology
 - Python 3.12
