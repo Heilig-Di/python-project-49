@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.games.game_logic import play
-from brain_games.games.progression import MESSAGE, generate_question
+from brain_games.engine import give_results
+from brain_games.games.progression import INSTRUCTION, generate_round
 
 
 def main():
-	play(generate_question, MESSAGE)
+	give_results(generate_round, INSTRUCTION)
 
 
 if __name__ == '__main__':

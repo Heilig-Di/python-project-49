@@ -1,8 +1,9 @@
 import math
 
-from brain_games.games.random_number import get_random_number
+from brain_games.consts import INSTRUCTION_PRIME
+from brain_games.utils import get_random_number
 
-MESSAGE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+INSTRUCTION = INSTRUCTION_PRIME
 
 
 def is_prime(num):
@@ -14,8 +15,7 @@ def is_prime(num):
 	return True
 
 
-def generate_question():
-	num = get_random_number()
-	question = num
-	correct_answer = 'yes' if is_prime(num) else 'no'
+def generate_round():
+	question = get_random_number()
+	correct_answer = 'yes' if is_prime(question) else 'no'
 	return str(question), correct_answer

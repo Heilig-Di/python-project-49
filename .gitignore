@@ -1,9 +1,7 @@
-__pycache__*
-dist
+__pycache__/
+dist/
 .DS_Store
 .flake8
 .python-version
 demo.cast
-__pycache__*
-dist
-.python-version
+.venv/

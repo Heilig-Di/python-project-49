@@ -1,14 +1,15 @@
-import random
+from brain_games.consts import INSTRUCTION_PROGRESSION
+from brain_games.utils import get_random_number
 
-MESSAGE = 'What number is missing in the progression?'
+INSTRUCTION = INSTRUCTION_PROGRESSION
 
 
-def generate_question():
-	start = random.randint(1, 100)
-	difference = random.randint(1, 11)
-	length = random.randint(5, 11)
+def generate_round():
+	start = get_random_number()
+	difference = get_random_number(1, 11)
+	length = get_random_number(5, 11)
 
-	hidden_i = random.randint(1, length - 2)
+	hidden_i = get_random_number(1, length - 2)
 	progression = [
 		str(start + i * difference) if i != hidden_i
 		else '..' for i in range(length)
