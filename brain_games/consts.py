@@ -1,6 +1,6 @@
 ROUNDS = 3
 CORRECT_MESSAGE = 'Correct!'
-WRONG_MESSAGE = "'{}' is wrong answer :(\nLet's try again, {}"
+WRONG_MESSAGE = "'{}' is wrong answer :(\nLet's try again, {}!"
 CONGRATULTIONS_MESSAGE = 'Congratulations, {}!'
 INSTRUCTION_CALC = 'What is the result of the expression?'
 INSTRUCTION_EVEN = 'Answer "yes" if the number is even, otherwise answer "no".'
