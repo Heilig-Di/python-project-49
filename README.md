@@ -42,7 +42,7 @@ To remove, run:
 ```
 rm -rf python-project-49
 ```
-To reinstall the package first remove the packageЖ
+To reinstall the package first remove the package
 ```
 rm -rf python-project-49
 ```
