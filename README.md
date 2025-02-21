@@ -16,16 +16,15 @@ You can choose one of the three games to play:
 
 There are also asciinema to be understood.
 #### Brain even
-https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=0:11
+[![asciicast](https://asciinema.org/a/jt1zqom49EKqxtjMpPL1lidq5.svg)](https://asciinema.org/a/jt1zqom49EKqxtjMpPL1lidq5)
 #### Brain calc
-https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=1:00
+[![asciicast](https://asciinema.org/a/ynZtNV1iUDZgtxtuRpxZ03G9E.svg)](https://asciinema.org/a/ynZtNV1iUDZgtxtuRpxZ03G9E)
 #### Brain gcd
-https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=1:30
+[![asciicast](https://asciinema.org/a/fRCqUh1Bub4h9EVcZNdjgevQP.svg)](https://asciinema.org/a/fRCqUh1Bub4h9EVcZNdjgevQP)
 #### Brain prime
-https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=2:19
+[![asciicast](https://asciinema.org/a/1KsJTOnFF2KGUGPeWyitlMctK.svg)](https://asciinema.org/a/1KsJTOnFF2KGUGPeWyitlMctK)
 #### Brain progression
-https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan?t=2:56
-[![asciicast](https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan.svg)](https://asciinema.org/a/K5eo4PR1iRgmXL4QxvHat5Kan)
+[![asciicast](https://asciinema.org/a/FbHJK637yGpCp3EZed4t0ZvFP.svg)](https://asciinema.org/a/FbHJK637yGpCp3EZed4t0ZvFP)
 
 ## Use
 To install the project clone the repository.
