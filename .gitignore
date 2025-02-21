@@ -3,5 +3,4 @@ dist/
 .DS_Store
 .flake8
 .python-version
-demo.cast
 .venv/
