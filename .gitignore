@@ -4,3 +4,4 @@ dist/
 .flake8
 .python-version
 .venv/
+.python-version
