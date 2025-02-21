@@ -1,11 +1,6 @@
 __pycache__/
-dist/
 .DS_Store
-.flake8
-.python-version
 .venv/
-.python-version
-demo.cast
 calc.cast
 even.cast
 gcd.cast
