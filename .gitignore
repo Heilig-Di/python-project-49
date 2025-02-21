@@ -6,3 +6,7 @@ even.cast
 gcd.cast
 prime.cast
 progression.cast
+demo.cast
+.python-version
+.flake8
+dist/
