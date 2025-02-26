@@ -1,28 +1,23 @@
 import prompt
 
-from brain_games.cli import welcome_user
-from brain_games.consts import (
-    CONGRATULTIONS_MESSAGE,
-    CORRECT_MESSAGE,
-    ROUNDS,
-    WRONG_MESSAGE,
-)
+from brain_games.consts import ROUNDS
 
 
-def give_results(generate_round, INSTRUCTION):
+def run_game(generate_question_and_correct_answer, INSTRUCTION):
 
-    name = welcome_user()
+    name = prompt.string("Welcome to the Brain Games!\nMay I have your name? ")
+    print(f"Hello, {name}!")
     print(INSTRUCTION)
 
     for _ in range(ROUNDS):
-        question, correct_answer = generate_round()
+        question, correct_answer = generate_question_and_correct_answer()
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ").lower()
 
         if answer == correct_answer:
-            print(CORRECT_MESSAGE)
+            print("Correct!")
 
         else:
-            print(WRONG_MESSAGE.format(answer, name))
+            print(f"'{answer}' is wrong answer :(\nLet's try again, {name}!")
             return
-    print(CONGRATULTIONS_MESSAGE.format(name))
+    print(f"Congratulations, {name}!")

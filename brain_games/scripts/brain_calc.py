@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-from brain_games.engine import give_results
-from brain_games.games.calc import INSTRUCTION, generate_round
+from brain_games.games.calc import run_calc_game
 
 
 def main():
-	give_results(generate_round, INSTRUCTION)
+	run_calc_game()
 
 
 if __name__ == '__main__':
