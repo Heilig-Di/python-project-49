@@ -24,5 +24,4 @@ def generate_question_and_correct_answer():
 
 
 def run_calc_game():
-    INSTRUCTION = INSTRUCTION_CALC
-    run_game(generate_question_and_correct_answer, INSTRUCTION)
+    run_game(generate_question_and_correct_answer, INSTRUCTION_CALC)
