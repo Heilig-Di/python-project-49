@@ -9,11 +9,10 @@ def generate_question_and_correct_answer():
     length = get_random_number(5, 11)
 
     hidden_i = get_random_number(1, length - 2)
-    progression = [
+    question = ' '.join([
 	str(start + i * difference) if i != hidden_i
 	else '..' for i in range(length)
-    ]
-    question = ' '.join(progression)
+    ])
     correct_answer = start + hidden_i * difference
     return question, str(correct_answer)
 
